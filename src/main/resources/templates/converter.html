@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter Page</title>
+</head>
+<body>
+
+<form action="/currency">
+    <label>Enter amount:</label>
+    <input type="text" id="amount" name="amount"><br>
+    <label>Choose the currency:</label>
+    <select id="currency">
+        <option value="euro">Euro</option>
+        <option value="us">US</option>
+        <option value="canadian">Canadian</option>
+        <option value="peso">Peso</option>
+    </select><br>
+    <label>Converted amount:</label>
+    <table>
+        <tr>
+            <td>Currency</td>
+            <td>Exchange Rate</td>
+            <td>Conversion</td>
+        </tr>
+        <th:block th:each="currency : ${currencies}">
+            <tr>
+                <td th:text="${currency.name}">...</td>
+                <td th:text="${currency.rate}">...</td>
+                <td th:text="${currency.conversion}">...</td>
+            </tr>
+        </th:block>
+    </table>
+    <input type="text" id="newAmount" name="newAmount" readonly><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
