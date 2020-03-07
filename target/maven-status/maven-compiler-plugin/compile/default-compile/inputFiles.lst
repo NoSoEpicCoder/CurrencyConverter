@@ -1,6 +1,7 @@
-/Users/keving/IdeaProjects/CurrencyConverter/src/main/java/ca/sapt/currencyconverter/CurrencyService.java
+/Users/keving/IdeaProjects/CurrencyConverter/src/main/java/ca/sapt/currencyconverter/repository/CurrencyRepo.java
 /Users/keving/IdeaProjects/CurrencyConverter/src/main/java/ca/sapt/currencyconverter/Application.java
-/Users/keving/IdeaProjects/CurrencyConverter/src/main/java/ca/sapt/currencyconverter/HomeController.java
-/Users/keving/IdeaProjects/CurrencyConverter/src/main/java/ca/sapt/currencyconverter/ConverterController.java
+/Users/keving/IdeaProjects/CurrencyConverter/src/main/java/ca/sapt/currencyconverter/model/Currency.java
+/Users/keving/IdeaProjects/CurrencyConverter/src/main/java/ca/sapt/currencyconverter/controller/HomeController.java
+/Users/keving/IdeaProjects/CurrencyConverter/src/main/java/ca/sapt/currencyconverter/service/CurrencyService.java
 /Users/keving/IdeaProjects/CurrencyConverter/src/main/java/ca/sapt/currencyconverter/Dataloader.java
-/Users/keving/IdeaProjects/CurrencyConverter/src/main/java/ca/sapt/currencyconverter/Currency.java
+/Users/keving/IdeaProjects/CurrencyConverter/src/main/java/ca/sapt/currencyconverter/controller/ConverterController.java

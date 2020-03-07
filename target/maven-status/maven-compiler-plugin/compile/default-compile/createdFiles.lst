@@ -1,6 +1,7 @@
+ca/sapt/currencyconverter/controller/HomeController.class
 ca/sapt/currencyconverter/Application.class
-ca/sapt/currencyconverter/CurrencyService.class
-ca/sapt/currencyconverter/Currency.class
+ca/sapt/currencyconverter/repository/CurrencyRepo.class
+ca/sapt/currencyconverter/service/CurrencyService.class
+ca/sapt/currencyconverter/model/Currency.class
 ca/sapt/currencyconverter/Dataloader.class
-ca/sapt/currencyconverter/ConverterController.class
-ca/sapt/currencyconverter/HomeController.class
+ca/sapt/currencyconverter/controller/ConverterController.class
